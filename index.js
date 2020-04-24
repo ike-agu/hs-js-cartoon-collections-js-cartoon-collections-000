@@ -30,6 +30,26 @@ function summonCaptainPlanet(planeteerCalls){
 }
 
 
+//nwe function called wordWithB , return bo
+
+function  wordWithB (words){
+  
+  let wordUp= ["ikenna"]
+  
+  let newArr= []
+  
+  for (let i=0 ; i < words.length , i ++){
+    
+  if (words[i].startsWith("b")){
+    
+   newArr.push(words[i])
+  }
+
+    
+  }
+  
+  return newArr;
+}
 
 
 function longPlaneteerCalls(words) {
@@ -48,10 +68,9 @@ function longPlaneteerCalls(words) {
 
 
 
-/*
 function findTheCheese (foods) {
   
-  var count=foods.length;
+  
   
   for (let i=0 ; i<foods.length ; i++){
     
@@ -73,31 +92,5 @@ function findTheCheese (foods) {
       }
  return ("no cheese!");
   }
-  */
+  
  
-
-
-function findTheCheese (foods) {
-  
-  var  cheeses = ["cheddar","gouda","camembert"] 
-  
-   for (let i=0 ; i<foods.length ; i++){
-     
-   if (cheeses.includes(foods[i])){
-     
-     return foods[i];
-   }
-     
-   }
-   return "no cheese!";
-}
-
-
-
-
-
-
-
-
-
-
